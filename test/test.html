@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Test PostCSS Click</title>
+    <link rel="stylesheet" href="style.expect.css">
+</head>
+<body>
+    <h1>Test PostCSS Click</h1>
+
+    <button class="foo">.foo</button>
+    <div class="next">.foo.next()</div>
+
+    <div class="bar">
+        <button class="woo">.woo</button>
+    </div>
+
+    <div class="opa">
+        <a href="#">.opa a</a>
+    </div>
+
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.12.0/jquery.min.js"></script>
+    <script src="click.js"></script>
+</body>
+</html>

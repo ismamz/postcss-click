@@ -1,0 +1,40 @@
+{
+  "name": "postcss-click",
+  "version": "0.1.0",
+  "description": "PostCSS plugin that allows to use the :click pseudo class and implement it in JavaScript.",
+  "keywords": [
+    "postcss",
+    "css",
+    "postcss-plugin",
+    "click",
+    "jQuery",
+    "pseudo-class"
+  ],
+  "author": "Ismael Martínez <ismael@isma.uy>",
+  "license": "MIT",
+  "repository": "ismamz/postcss-click",
+  "bugs": {
+    "url": "https://github.com/ismamz/postcss-click/issues"
+  },
+  "homepage": "https://github.com/ismamz/postcss-click",
+  "dependencies": {
+    "fs": "0.0.2",
+    "js-beautify": "^1.6.3",
+    "postcss": "^5.0.13",
+    "postcss-value-parser": "^3.3.0"
+  },
+  "devDependencies": {
+    "ava": "^0.9.1",
+    "eslint": "^1.10.3",
+    "eslint-config-postcss": "^1.0.0"
+  },
+  "scripts": {
+    "test": "ava test.js && eslint index.js test.js"
+  },
+  "eslintConfig": {
+    "extends": "postcss/es5",
+    "rules": {
+      "camelcase": 0
+    }
+  }
+}
