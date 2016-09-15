@@ -19,7 +19,7 @@ In this first stage, the JavaScript is written with jQuery. Why? Because is easi
 
 ---
 
-Run an example locally. [See the example branch](tree/example).
+Run an example locally. [See the example branch](https://github.com/ismamz/postcss-click/tree/example).
 
 ---
 
