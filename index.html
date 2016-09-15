@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>PostCSS Click Example</title>
+
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+	<!-- Bootstrap CSS -->
+  <link rel="stylesheet" href="bower_components/bootstrap/dist/css/bootstrap.min.css">
+	<link rel="stylesheet" href="bower_components/bootstrap/dist/css/bootstrap-theme.min.css">
+
+  <!-- Processed CSS -->
+	<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <div class="container">
+    <h1>PostCSS Click Example</h1>
+
+    <p class="lead"><a href="https://github.com/postcss/postcss">PostCSS</a> plugin that allows to use the <em>:click</em> pseudo class and implement it in JavaScript.</p>
+
+    <hr>
+
+    <h2>Example 1 <small>css &amp; addClass jQuery Methods</small></h2>
+
+    <button class="btn btn-primary" id="change">#change</button>
+    <button class="btn btn-default" id="reset">#reset</button>
+
+    <div id="target">
+      #target
+    </div>
+
+    <hr>
+
+    <h2>Example 2 <small>next &amp; prev</small></h2>
+
+    <p>Click on .foo and .bar</p>
+
+    <div class="row">
+      <div class="col-lg-6 foo">
+        .foo
+      </div>
+      <div class="col-lg-6 bar">
+        .bar
+      </div>
+    </div>
+
+    <button class="btn btn-default" id="reset-bg-color">#reset-bg-color</button>
+
+    <hr>
+
+    <h2>Example 3 <small>Bootstrap Collapse Method</small></h2>
+
+    <button class="btn btn-primary" id="toggle-collapse" aria-expanded="false">#toggle-collapse</button>
+
+    <div class="collapse" id="collapse-example">
+      <div class="well text-center">
+        <img src="http://www.reactiongifs.com/wp-content/uploads/2013/03/magic.gif" alt="Magic">
+      </div>
+    </div>
+  </div>
+
+  <!-- Bootstrap and jQuery JavaScripts -->
+	<script src="bower_components/jquery/dist/jquery.min.js"></script>
+	<script src="bower_components/bootstrap/dist/js/bootstrap.min.js"></script>
+
+  <!-- Generated JavaScript file -->
+  <script src="click.js"></script>
+</body>
+</html>

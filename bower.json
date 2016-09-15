@@ -1,0 +1,24 @@
+{
+  "name": "postcss-click-example",
+  "description": "Example of postcss-click plugin",
+  "main": "index.html",
+  "authors": [
+    "Ismael Martínez"
+  ],
+  "license": "MIT",
+  "keywords": [
+    "postcss",
+    "click",
+    "example",
+    "plugin"
+  ],
+  "homepage": "https://github.com/ismamz/postcss-click",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components"
+  ],
+  "dependencies": {
+    "bootstrap": "^3.3.7"
+  }
+}

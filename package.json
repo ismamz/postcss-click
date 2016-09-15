@@ -1,0 +1,34 @@
+{
+  "name": "postcss-click-example",
+  "version": "1.0.0",
+  "description": "Example of postcss-click plugin",
+  "license": "MIT",
+  "repository": "ismamz/postcss-click",
+  "author": {
+    "name": "Ismael Martínez",
+    "email": "ismael@isma.uy",
+    "url": "isma.uy"
+  },
+  "engines": {
+    "node": ">=4"
+  },
+  "scripts": {
+    "install": "npm i && bower install",
+    "start": "grunt"
+  },
+  "files": [
+    "index.js"
+  ],
+  "keywords": [
+    "postcss",
+    "click",
+    "example",
+    "css"
+  ],
+  "devDependencies": {
+    "grunt": "^0.4.5",
+    "grunt-browser-sync": "^2.2.0",
+    "grunt-contrib-watch": "^1.0.0",
+    "grunt-postcss": "^0.8.0"
+  }
+}

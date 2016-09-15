@@ -1,0 +1,95 @@
+/* ==========================================================================
+   PostCSS Click Example
+   https://github.com/ismamz/postcss-click-example
+   ========================================================================== */
+
+body {
+  padding-bottom: 300px;
+}
+
+hr {
+  margin: 4em 0;
+}
+
+@media (min-width: 1200px) {
+  .container {
+    width: 800px;
+  }
+}
+
+/* Example 1
+   ========================================================================== */
+#target {
+  padding: 1.5rem;
+  border: 1px solid #ccc;
+  margin: 1.5rem 0;
+  transition: all .5s ease;
+}
+
+#change:click #target {
+  background-color: indigo;
+  @action add-class('active');
+}
+
+.active {
+  color: #fff;
+}
+
+#reset:click #target {
+  background-color: transparent;
+  @action remove-class('active');
+}
+
+
+/* Example 2
+   ========================================================================== */
+.foo,
+.bar {
+  background-color: #f3f3f3;
+  padding: 1.5rem;
+  margin-top: 1.5rem;
+  margin-bottom: 1.5rem;
+  transition: background-color .5s ease;
+}
+
+.foo:click next {
+  background-color: SkyBlue;
+}
+
+.bar:click prev {
+  background-color: LightGreen;
+}
+
+#reset-bg-color:click .foo {
+  background-color: #f3f3f3;
+}
+#reset-bg-color:click .bar {
+  background-color: #f3f3f3;
+}
+
+
+/* Example 3
+   ========================================================================== */
+#toggle-collapse:click #collapse-example {
+  @action collapse('toggle');
+}
+
+#collapse-example {
+  margin-top: 20px;
+}
+
+.container {
+  padding-top: 30px;
+}
+
+.target {
+  padding: 2rem;
+  margin-top: 2rem;
+  background-color: #f3f3f3;
+}
+
+.change:click .target {
+  background: indigo;
+  color: #fff;
+}
+
