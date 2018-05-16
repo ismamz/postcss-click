@@ -9,7 +9,7 @@
 > [PostCSS] plugin that allows to use the `:click` pseudo class and implement it in JavaScript.
 
 <p align="center">
-    <img src="http://ci.memecdn.com/103/8066103.gif" alt="Magic!">
+    <img src="https://media.giphy.com/media/12NUbkX6p4xOO4/giphy.gif" alt="Magic!">
 </p>
 
 With this plugin you can define in your stylesheet the behavior of an element when it is clicked. Using the `:click` pseudo class (like `:hover`) you will get a generated JavaScript file after processing the CSS with PostCSS.
